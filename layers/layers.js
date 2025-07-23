@@ -39,7 +39,7 @@ var jsonSource_Campingpltze_1 = new ol.source.Vector({
 });
 jsonSource_Campingpltze_1.addFeatures(features_Campingpltze_1);
 var lyr_Campingpltze_1 = new ol.layer.Vector({
-                declutter: true,
+                declutter: false,
                 source:jsonSource_Campingpltze_1, 
                 style: style_Campingpltze_1,
                 popuplayertitle: 'Camping',

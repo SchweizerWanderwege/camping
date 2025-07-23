@@ -1,3 +1,5 @@
+var size = 0;
+var placement = 'point';
 function categories_Campingpltze_1(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
@@ -46,4 +48,32 @@ function categories_Campingpltze_1(feature, value, size, resolution, labelText,
                                       bufferWidth)
             })];
     }
+};
+
+
+var style_Campingpltze_1 = function(feature, resolution){
+    var context = {
+        feature: feature,
+        variables: {}
+    };
+    
+    var labelText = ""; 
+    var value = feature.get("SYMBOL");
+    var labelFont = "10px, sans-serif";
+    var labelFill = "#000000";
+    var bufferColor = "";
+    var bufferWidth = 0;
+    var textAlign = "left";
+    var offsetX = 0;
+    var offsetY = 0;
+    var placement = 'point';
+    if ("" !== null) {
+        labelText = String("");
+    }
+    
+    var style = categories_Campingpltze_1(feature, value, size, resolution, labelText,
+                            labelFont, labelFill, bufferColor,
+                            bufferWidth, placement);
+
+    return style;
 };

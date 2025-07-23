@@ -12,7 +12,7 @@ var style_Campingpltze_1 = function(feature, resolution){
                     anchorXUnits: "pixels",
                     anchorYUnits: "pixels",
                     rotation: 0.0,
-                    src: "styles/campground-solid_green.svg"
+                    src: "styles/campground-solid_green.png"
                 })
             })];
         case '1.021':
@@ -24,7 +24,7 @@ var style_Campingpltze_1 = function(feature, resolution){
                     anchorXUnits: "pixels",
                     anchorYUnits: "pixels",
                     rotation: 0.0,
-                    src: "styles/campground-solid_orange.svg"
+                    src: "styles/campground-solid_orange.png"
                 })
             })];
         default:

@@ -13,7 +13,7 @@ function categories_Campingpltze_1(feature, value, size, resolution, labelText,
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
-                  src: "styles/campground-solid_green.png"
+                  src: "styles/campground-solid_green.svg"
             }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
@@ -29,7 +29,7 @@ case '1.021':
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",
                   rotation: 0.0,
-                  src: "styles/campground-solid_orange.png"
+                  src: "styles/campground-solid_orange.svg"
             }),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

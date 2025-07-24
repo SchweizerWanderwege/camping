@@ -7,14 +7,16 @@ var style_Campingpltze_1 = function(feature, resolution){
             return [ new ol.style.Style({
                 image: new ol.style.Icon({
                     src: "styles/campground-solid_green.png", // or .svg
-                    scale: 0.05
+                    scale: 0.05,
+                    opacity: 0.8
                 })
             }) ];
         case "1.021":
             return [ new ol.style.Style({
                 image: new ol.style.Icon({
                     src: "styles/campground-solid_orange.png", // or .svg
-                    scale: 0.05
+                    scale: 0.05,
+                    opacity: 0.8
                 })
             }) ];
         default:

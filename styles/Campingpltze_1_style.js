@@ -6,7 +6,7 @@ var style_Campingpltze_1 = function(feature, resolution){
     return [ new ol.style.Style({
         image: new ol.style.Icon({
             src: iconSrc,
-            scale: 0.05 // adjust as needed for your SVG
+            scale: 0.01 // adjust as needed for your SVG
         })
     }) ];
 };

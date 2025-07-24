@@ -22,13 +22,13 @@ html, body {
 }
 
 .ol-popup {
-    width: 350px;
+    width: 250px;
     display: none;
     position: absolute;
     background-color: #ffffffe6;
     padding: 15px 20px;
     border: 5px solid #ffbf00;
-	border-radius: 2px;
+	border-radius: 4px;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
@@ -77,8 +77,8 @@ html, body {
 
 #popup-content {
 	font-size: 12px;
-    line-height: 1.5;
-    margin-top: 5px;
+    line-height: 1.2;
+    margin-top: 3px;
 	max-height: 70vh;
 	max-width: 70vw;
 	overflow: auto;
@@ -108,25 +108,25 @@ html, body {
 }
 
 .popup-title {
-    font-size: 16px;           /* slightly larger for title */
+    font-size: 12px;           /* slightly larger for title */
     font-weight: 500;          /* semi-bold */
     text-transform: uppercase; /* all caps */
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     color: #111;
     text-decoraton: none;
     text-align: left;
 }
 
 .popup-subtitle {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   text-align: left;
   text-transform: none;
 }
 
 .popup-link a {
-  font-size: 28px;
+  font-size: 18px;
   font-weight: 500;
   color: #111;
   text-decoration: none;
@@ -139,23 +139,23 @@ html, body {
 
 .ol-popup a b {
   display: block;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   text-decoraton: none;
 }
 
 .ol-popup strong {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
   display: block;
-  margin: 5px 0;
+  margin: 3px 0;
   text-decoraton: none;
 }
 
 .ol-popup a {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 400;
   color: #222;
   text-decoration: none;
